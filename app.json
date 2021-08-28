@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Weather_spredmedia",
+    "name": "Weather",
     "slug": "Weather_spredmedia",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#5120A6"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,9 +21,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#5120A6"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9265757158906430~1057634795"
+      },
+      "package": "com.weather.spredMedia",
+      "versionCode": 2
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#5120A6"
     },
     "web": {
       "favicon": "./assets/favicon.png"
